@@ -1,0 +1,39 @@
+div.container {
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+  height: 960px;
+  margin: auto;
+}
+
+div.row {
+  border-style: solid;
+  border-width: 2px;
+  display: flex;
+}
+
+div.box {
+  border-style: solid;
+  border-width: 2px;
+  transition: 500ms;
+}
+
+div.box-hover {
+  background-color: aqua;
+}
+
+button#btnGridSize {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: aqua;
+  border-radius: 10px;
+  border-style: none;
+  font-size: large;
+  font-weight: bold;
+}
+
+button#btnGridSize:hover {
+  background-color: aquamarine;
+  transition: 300ms;
+  cursor: pointer;
+}
